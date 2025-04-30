@@ -1,0 +1,30 @@
+1,Rockwell Automation/Allen-Bradley
+2,Siemens
+3,Schneider Electric
+4,Honeywell
+5,GE Industrial Systems
+6,ABB
+7,Mitsubishi Electric
+8,Bosch Rexroth
+9,Phoenix Contact
+10,Emerson Electric
+11,Yokogawa
+12,Wago
+13,Beckhoff
+14,Omron
+15,Hitachi
+16,National Instruments
+17,General Electric
+18,Honeywell International
+19,Endress+Hauser
+20,B&R Automation
+21,Festo
+22,Advantech
+23,ICP DAS
+24,Weidmüller
+25,IFM Electronic
+26,LAPP
+27,Turck
+28,HMS Industrial Networks
+29,Balluff
+30,Banner Engineering
