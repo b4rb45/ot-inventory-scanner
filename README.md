@@ -1,3 +1,4 @@
+![banner](OT_b4rb45.png)
 # OT Inventory Scanner — b4rb45 edition
 
 🔥 Offensive OT/ICS Recon Tool built for serious SCADA mapping 🔥  
