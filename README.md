@@ -11,17 +11,46 @@
 Scan & fingerprint industrial control system devices over TCP/UDP (Modbus, BACnet, DNP3, S7Comm, EtherNet/IP, and more).
 
 ## Features
-- 🧠 Detects real industrial protocols
-- 🔍 Fingerprints and marks potential honeypots
-- ⚙️ Multithreaded with optional stealth mode
-- 📜 Dynamic port loading from `.txt`
-- ✅ TCP + UDP support
+
+- 🧠 Detects real industrial protocols: Modbus, OPC UA, DNP3, BACnet/IP, S7Comm, EtherNet/IP, and more.
+- 🔍 Extracts vendor information (Vendor ID mapping).
+- 🧪 Marks likely honeypots based on response timing.
+- ⚙️ Multithreaded with optional stealth mode (evade IDS/IPS).
+- 📜 Loads ports and vendor IDs dynamically from `.txt` files.
+- ✅ Supports both TCP and UDP protocols.
+
+---
 
 ## Usage
+
 ```bash
 git clone https://github.com/yourname/ot-inventory-scanner.git
 cd ot-inventory-scanner
 pip install -r requirements.txt
 python3 scanner.py
 ```
-...
+
+---
+
+## Files
+
+- `scanner.py`: Main scanning engine
+- `ot_ports_tcp.txt`: TCP OT protocol ports
+- `ot_ports_udp.txt`: UDP OT protocol ports
+- `vendor_ids.txt`: Manufacturer IDs for EtherNet/IP
+- `requirements.txt`: Python dependencies
+- `README.md`: This manual
+
+---
+
+## Add/Extend Protocols or Vendors
+
+- Add new ports in `ot_ports_tcp.txt` or `ot_ports_udp.txt`
+- Add Vendor IDs in `vendor_ids.txt`
+- Format: `<id>,<name>`
+
+---
+
+## License
+
+MIT License — Free to use and contribute.
