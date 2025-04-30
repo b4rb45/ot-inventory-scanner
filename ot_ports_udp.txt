@@ -1,0 +1,4 @@
+47808,BACnet/IP Discovery
+20000,DNP3 UDP
+2222,EtherNet/IP UDP Messaging
+1911,Tridium Niagara Fox UDP

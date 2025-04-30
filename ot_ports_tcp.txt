@@ -1,0 +1,12 @@
+502,Modbus TCP
+44818,EtherNet/IP
+4840,OPC UA
+2404,IEC 60870-5-104
+102,S7Comm (Siemens PLC)
+1911,Tridium Niagara Fox
+2455,CoDeSys PLC
+34964,Profinet
+1962,PCWorx Phoenix Contact
+9600,OMNI Flow Computers
+2222,EtherNet/IP I/O Messaging
+22222,Schneider Electric Proprietary
